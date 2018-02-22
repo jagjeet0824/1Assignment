@@ -194,6 +194,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\Table1Controller.cs" />
+    <Compile Include="Controllers\Table2_Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -263,6 +265,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Table1\Create.cshtml" />
+    <Content Include="Views\Table1\Delete.cshtml" />
+    <Content Include="Views\Table1\Details.cshtml" />
+    <Content Include="Views\Table1\Edit.cshtml" />
+    <Content Include="Views\Table1\Index.cshtml" />
+    <Content Include="Views\Table2_\Create.cshtml" />
+    <Content Include="Views\Table2_\Delete.cshtml" />
+    <Content Include="Views\Table2_\Details.cshtml" />
+    <Content Include="Views\Table2_\Edit.cshtml" />
+    <Content Include="Views\Table2_\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
